@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.nav_header{
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #151513;
+}
+
+.logo{
+    background: purple;
+}
+
+.menu_header{
+    display: flex;
+    width: 310px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.items_nav a{
+    color: white;
+    font-size: 18px;
+    display: inline-block;
+    padding: 10px 0;
+}
+
+.header-layout{
+    padding: 150px 150px;
+    text-align: right;
+    background: url("images/a935eb58-686b-4c80-9335-7e7ca10ce335.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: right;
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+p{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.text_header{
+    max-width: 300px;
+}
+
+.header-layout a{
+    background-color: white;
+    display: inline-block;
+    padding: 15px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: black;
+
+}   
+
+.icons_items .item{
+    color: aliceblue;
+}
+
+@media{
+    
+}
