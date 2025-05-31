@@ -26,10 +26,6 @@ ul{
     background: #151513;
 }
 
-.logo{
-    background: purple;
-}
-
 .menu_header{
     display: flex;
     width: 310px;
@@ -83,8 +79,19 @@ p{
 
 .icons_items .item{
     color: aliceblue;
+    font-size: 30px;
 }
 
-@media{
-    
+.icons_items{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons{
+    width: 150px;
+}
+
+.logo i{
+    font-size: 80px;
+    color: azure;
 }
